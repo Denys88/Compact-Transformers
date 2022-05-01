@@ -16,15 +16,12 @@ setup(name='cct',
       long_description=README,
       long_description_content_type="text/markdown",
       url="https://github.com/SHI-Labs/Compact-Transformers",
-      packages = ['cct',],
+      packages = ['cct'],
       package_data={'cct':['*','*/*','*/*/*','*/*/*/*']},
       version='1.0.0',
       author='',
       author_email='',
-      license="MIT",
-      classifiers=[
-            "Apache License 2.0"
-      ],
+      license="Apache License 2.0",
       include_package_data=True,
       install_requires=[
             'torch>=1.7.0',
